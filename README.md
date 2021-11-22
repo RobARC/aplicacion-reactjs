@@ -37,7 +37,7 @@ Start the server
 
 ## Demo
 
-Insert gif or link to demo
+[Link to demo deployed in heroku](https://techni-reactjs.herokuapp.com/)
 
 
 ## Authors
