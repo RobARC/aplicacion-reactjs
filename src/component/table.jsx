@@ -74,11 +74,11 @@ export default function TableUsers({ users, setUsers }) {
               <td>{user.telefono}</td>
               <td>{user.direccion}</td>
               <td>{user.id}</td>
-              <td>
-                <Button variant="primary" name={user.id} onClick={updateUser}>
+              <td className="d-flex justify-content-center">
+                <Button variant="outline-success" name={user.id} onClick={updateUser}>
                   edit
                 </Button>{' '}
-                <Button variant="primary" name={user.id} onClick={deleteUser}>
+                <Button variant="danger" name={user.id} onClick={deleteUser}>
                   delete
                 </Button>
               </td>
