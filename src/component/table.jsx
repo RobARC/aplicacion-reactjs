@@ -24,6 +24,7 @@ export default function TableUsers({ users, setUsers }) {
         <input id="swal-input4" class="swal2-input" value="${user.direccion}">
       `,
       focusConfirm: false,
+      showCancelButton: true,
       preConfirm: () => {
         return {
           nombre: document.getElementById('swal-input1').value,
